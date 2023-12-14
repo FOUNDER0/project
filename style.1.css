@@ -1,0 +1,222 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    color: #fff;
+
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(4k.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.navbar1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+.navlogo{
+    cursor: no-drop;
+    width: 200px;
+}
+
+.navul{
+
+    list-style: none;
+    width: 50%;
+}
+
+.listynav{
+    list-style: none;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
+.linkynav{
+    
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    width: 100px;
+    
+}
+
+
+
+
+
+
+.dropdown{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+
+.menuimg{
+    width: 50px;
+}
+
+.dropbtn{
+    background-color: #000000;
+    border: none;
+}
+
+.dropdown-content{
+
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    right: 0%;
+
+}
+
+.linkynav:hover{
+    color: #1877f2;
+    transition: 0.5s;
+    font-size: large;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #1877f2;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+
+
+
+
+
+
+
+
+
+  .babat{
+    width: 100%;
+    height: 80vh;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .founderlogo{
+    cursor: no-drop;
+    box-shadow: 0px 0px 100px #fff;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.hh{
+    
+    text-shadow: 0px 0px 20px #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.para1{
+    width: 380px;
+    text-align: justify;
+
+}
+
+.para1 a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    border:1.5px solid #ffffff;
+    padding: 5px 30px;
+    border-radius: 50px;
+    text-shadow: 0px 0px 20px #fff;
+}
+
+
+.aboutus{
+    text-shadow: 0px 0px 10px #fff;
+    text-transform: capitalize;
+    background: none;
+    color: #ffffff;
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.aboutus:hover{
+    background-color: #fff;
+    color: #000000;
+    font-weight: 600;
+
+}
+
+
+
+
+.end{
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.end ul li {
+    
+    width: 150%;
+    padding: 10%;
+}
+.end ul li a{
+
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: small;
+}
+
+.end p{
+    text-transform: capitalize;
+    font-size: small;
+    color: #8e8e8e;
+    width: 60%;
+}
